@@ -53,7 +53,6 @@ const Search: React.FC = () => {
 		setSaved([orgInfo, ...saved]);
 		setFlag(true);
 	};
-	console.log(saved);
 	return (
 		<div className="content__wrapper">
 			<h4 className="content__header__title">Организация или ИП</h4>
