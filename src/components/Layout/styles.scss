@@ -1,0 +1,47 @@
+@font-face {
+	font-family: "Verdana";
+	src: url("./Verdana.ttf");
+}
+@font-face {
+	font-family: "Verdana Bold";
+	src: url("./Verdana-Bold.ttf");
+}
+
+$header-color: #ffffff;
+$main-color: #e5e5e5;
+$active-color: #2b2829;
+$font-regular: "Verdana";
+$font-bold: "Verdana Bold";
+
+body {
+	margin: 0;
+	padding: 0;
+	font: 100% $font-regular;
+	background-color: $main-color;
+	color: $active-color;
+}
+
+h1 {
+	color: $active-color;
+	font: 100% $font-bold;
+	font-size: 40px;
+	line-height: 49px;
+	padding-top: 1.4em;
+	font-weight: bold;
+	margin: 0px;
+}
+
+.header {
+	background-color: $header-color;
+	display: flex;
+	justify-content: center;
+}
+
+.header__image {
+	padding: 16px 0;
+}
+.main__wrapper {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 100px;
+}
